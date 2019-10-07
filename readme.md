@@ -1,4 +1,4 @@
 #Punto de venta
 
-Descrpción:
-Su objetivo es facilitar las comras al usuario. Funciona con xampp
+DescrpciÃ³n:
+Su objetivo es facilitar las compras al usuario. Funciona con xampp
