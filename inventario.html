@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Registrar artículos</title>
+	<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+	<body>
+		<div class="group">
+		<form action="registro.php" method="POST">
+			<!--
+		if(count($_POST) > 0){
+
+			$meta = $_POST['meta'];
+			$descripcion = $_POST['descripcion'];
+			$plazo = $_POST['plazo'];
+			
+			echo "<b>Mi meta es $meta en un plazo de $plazo año(s).";
+		} -->
+			<center></center><h2><em>Registro de artículos</em></h2></center>
+			  
+			<label for="id">ID del articulo <span><em>(requerido)</em></span></label>
+			<input type="int" name="id" class="form-input" required/>             
+			  
+			<label for="marca">Marca <span><em>(requerido)</em></span></label>
+			<input type="text" name="marca" class="form-input" />     
+
+			<label for="descripcion">Descripción <span><em>(requerido)</em></span></label>
+			<input type="text" name="descripcion" class="form-input" required/>   
+			  
+			<label for="cantidad">Cantidad <span><em>(requerido)</em></span></label>
+			<input type="number" name="cantidad" class="form-input" required/>             
+			  
+			<label for="precio">Precio <span><em>(requerido)</em></span></label>
+			<input type="float" name="precio" class="form-input" />
+			  
+			<center>
+				<input class="form-btn" name="submit" type="submit" value="Registrar">
+				<button class = "form-btn" onclick = "location.href = 'inicio.php'">Volver</button>
+			</center>
+		  </form>
+		</div>
+	</body>
+</html>
