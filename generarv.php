@@ -117,12 +117,12 @@
 			{
 				if($codigo == 0)
 				{
-					echo "Bienvenido";
+					echo "<h2>Bienvenido</h2>";
 				}
 				
 				else
 				{
-					echo "El articulo no existe";
+					echo "<h2>El articulo no existe</h2>";
 				}
 			}
 		}
@@ -165,7 +165,7 @@
 						
 				echo "<br>";
 				
-				echo "<table>";
+				echo "<table style='width:100%'>";
 					echo "<tr>";
 						echo "<td>";
 							echo "Artículo";
@@ -190,18 +190,15 @@
 				echo "</table>";
 				
 				echo "<br>";
-			//echo "</div>";
 			
 			// ------------------------- Total --------------------------------
 			
-			//echo "<div class = 'divisor'>";
 				echo "<h1 class = 'total'>Total: </h1>";
 				total($conexion);
-			//echo "</div>";
+				echo "<br>";
 			
 			// ------------------------- añadir productos --------------------------------
 			
-			//echo "<div class = 'group'>";
 				echo "<br>";
 				
 				echo "<form action = 'generarv.php' method = 'post' autocomplete = 'off'>";
@@ -213,11 +210,8 @@
 				echo "</form>";
 				
 				echo "</br>";
-			//echo "</div>";
 			
 			// ------------------------- cancelar / guardar venta ------------------------------
-			
-			//echo "<div class = 'divisor'>";
 				echo "<br>";
 					echo "<table>";
 						echo "<tr>";
@@ -226,10 +220,9 @@
 									echo "<center><input class='form-btn' name='submit' type='submit' value='Cancelar venta'></center>";						
 								echo "</form>";
 							echo "</td>";
-							
 							echo "<td>";
 								echo "<form action = 'guardarv.php'>";
-									echo "<center><input class='form-btn' name='submit' type='submit' value='Cobrar'></center>";						
+									echo "<center><input class='form-btn' name='submit' type='submit' value='Cobrar'></center>";
 								echo "</form>";
 							echo "</td>";
 						echo "</tr>";

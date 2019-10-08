@@ -10,8 +10,8 @@
 	<center>
 		<h1>Art&iacute;culos registrados</h1>
 		
-		<!-- <div class="group">-->
-		<table>
+		<div class="group" style="width:60%">
+		<table style="width:100%">
 			<tr>
 				<td><font face="verdana"><b>C&oacute;digo</b></font></td>
 				<td><font face="verdana"><b>Marca</b></font></td>
@@ -52,7 +52,7 @@
 				mysqli_close($link);
 			?>
 		</table>
-		<!--</div>-->
+		</div>
 		<br>
 		<button class = "form-btn" onclick = "location.href = 'inventarios.php'">Volver</button>
 	</center>

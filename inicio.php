@@ -1,15 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 <header>
-	<title>Página principal</title>
+	<title>Inicio</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link href="estilos.css" rel="stylesheet" type="text/css">
 </header>
 
 <body>
 	<center>
+		<h1>Punto de venta "El Colibrí"</h1>
 		<div class="group">
 		<h1>Bienvenido</h1>
+		<br>
 		<table>
 			<tr>
 				<td>

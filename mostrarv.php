@@ -53,8 +53,8 @@
 				
 				if($comparador == 0)
 				{
-				echo "<div class='group'>";
-					echo "<table>";
+				echo "<div class='group' style='width:60%'>";
+					echo "<table style='width:100%'>";
 						echo "<tr>";
 							echo "<td>";
 								echo "<b>Folio: </b>";
