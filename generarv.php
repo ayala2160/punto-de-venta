@@ -197,7 +197,7 @@
 				total($conexion);
 				echo "<br>";
 			
-			// ------------------------- añadir productos --------------------------------
+			// ------------------------- añadir productos ------------------------------
 			
 				echo "<br>";
 				
@@ -205,29 +205,28 @@
 					
 					echo "<label for='codigo'>Código del producto <span><em>(requerido)</em></span></label>";
 					echo "<input type='text' name='codigo' class='form-input' required>";
-					
-					echo "<input class='form-btn' name='submit' type='submit' value='Agregar'>";
+					echo "<table>";
+						echo "<tr>";
+							echo "<td>";					
+								echo "<input class='form-btn' name='submit' type='submit' value='Agregar'>";
+									echo "<td>";
+										echo "<form action = 'guardarv.php'>";
+											echo "<center><input class='form-btn' name='submit' type='submit' value='Cobrar'></center>";
+										echo "</form>";
+									echo "</td>";
+								echo "</td>";
+							echo "</tr>";
+						echo "</table>";
 				echo "</form>";
 				
 				echo "</br>";
 			
 			// ------------------------- cancelar / guardar venta ------------------------------
 				echo "<br>";
-					echo "<table>";
-						echo "<tr>";
-							echo "<td>";
-								echo "<form action = 'cancelarv.php'>";
-									echo "<center><input class='form-btn' name='submit' type='submit' value='Cancelar venta'></center>";						
-								echo "</form>";
-							echo "</td>";
-							echo "<td>";
-								echo "<form action = 'guardarv.php'>";
-									echo "<center><input class='form-btn' name='submit' type='submit' value='Cobrar'></center>";
-								echo "</form>";
-							echo "</td>";
-						echo "</tr>";
-					echo "</table>";
-				echo "<br>";
+					echo "<form action = 'cancelarv.php'>";
+						echo "<center><input class='form-btn' name='submit' type='submit' value='Cancelar venta'></center>";						
+					echo "</form>";
+				echo "</br>";
 			echo "</div>";
 		echo "</center>";
 		
