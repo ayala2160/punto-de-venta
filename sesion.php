@@ -8,7 +8,7 @@
 
 <body>
 	<center>
-		<div class="group">
+		<div class="group"style="width:50%">
 <?php
 	$host = "localhost";
 	$usuario = "root";
@@ -72,7 +72,7 @@
 	{
 		exit("
 			<center>
-				Error: Usuario o contraseña no encontrados<br><br>
+				<h1>Error: Usuario o contraseña no encontrados</h1><br>
 				<form action = 'index.php'>
 					<input class='form-btn' name='submit' type='submit' value='Regresar'>
 				</form>

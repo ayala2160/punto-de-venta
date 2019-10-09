@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <header>
-	<title>Administración de ventas</title>
+	<title>Administración de artículos</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link href="estilos.css" rel="stylesheet" type="text/css">
 </header>
@@ -9,7 +9,7 @@
 <body>
 	<center>
 		<div class="group">
-		<h1>Administración de ventas</h1>
+		<h1>Administración de artículos</h1>
 		<table>
 			<tr>
 				<td>
